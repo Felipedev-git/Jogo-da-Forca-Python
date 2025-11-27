@@ -46,4 +46,4 @@ Uso de operadores de pertinência (in, not in).
 
 Importação e uso de bibliotecas padrão.
 
-Desenvolvido por Felipe Campos 🦁
+Desenvolvido por Felipe de Campos 🦁
