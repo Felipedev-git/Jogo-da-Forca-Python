@@ -1,4 +1,14 @@
-secreta = 'BANANA'
+import random
+
+palavras = [
+    'ABACATE', 'ELEFANTE', 'COMPUTADOR', 'PROGRAMACAO', 'PYTHON',
+    'GIRAFA', 'HIPOPOTAMO', 'CHOCOLATE', 'BRASIL', 'FUTEBOL',
+    'GUITARRA', 'BATERIA', 'DADO', 'JAZZ', 'ROCK',
+    'SKATE', 'LIBRARY', 'FRAMEWORK', 'GITHUB', 'INTERFACE',
+    'MONITOR', 'TECLADO', 'MOUSE', 'PROCESSADOR', 'MEMORIA',
+    'ANDROID', 'IPHONE', 'WINDOWS', 'LINUX', 'DEVELOPER'
+]
+secreta = random.choice(palavras)
 lista = ["_"] * len(secreta)
 vidas = 6
 
@@ -15,6 +25,6 @@ while True:
         vidas = vidas - 1
         print(f'Restam {vidas} vidas!')
         if vidas == 0:
-            print('Game over')
+            print(f'Game over! A palavra correta era {secreta}!')
             break
          
