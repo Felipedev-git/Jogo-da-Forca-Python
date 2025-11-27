@@ -1,4 +1,4 @@
-# 🔤 Jogo da Forca - Python
+#Jogo da Forca - Python
 
 Projeto desenvolvido durante minha jornada de aprendizado em Lógica de Programação e Python. O objetivo foi recriar o clássico jogo da forca via terminal, aplicando conceitos de manipulação de listas, loops e validação de dados.
 
